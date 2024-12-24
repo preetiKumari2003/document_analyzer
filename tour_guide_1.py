@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-imort langchain
+import langchain
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.embeddings import OpenAIEmbeddings
